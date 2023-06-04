@@ -72,7 +72,8 @@ const BookC = styled.div`
     font-weight: 700;
     text-transform: uppercase;
     opacity: 0;
-    font-size: 1.7vw;
+    font-size: 1.4vw;
+    /* margin-right: 0.3vw; */
   }
 
   p,
@@ -93,6 +94,8 @@ const BookC = styled.div`
 
   p {
     inset: auto auto 15vh 30px;
+    font-size: 1.1vw;
+    margin-left: 0.6vw;
   }
 
   a {
@@ -104,6 +107,7 @@ const BookC = styled.div`
   &:hover h2 {
     inset: auto auto 33vh 30px;
     transition: inset 0.3s ease-out;
+    margin-top: 4vh;
   }
 
   &:hover p,
@@ -122,23 +126,32 @@ const BookC = styled.div`
     width: 150px;
     height: 230px;
 
+    h2{
+      padding-top: 2vh;
+    }
+
     a {
       inset: auto auto 25px 17px;
+      padding-right: 2vw;
       button {
         width: 120px;
         height: 38px;
+        font-size: 2vw;
+      
       }
     }
 
     p {
       inset: auto auto 70px 30px;
-      font-size: 14px;
+      font-size: 11px;
     }
 
     &:hover h2 {
       inset: auto auto 140px 30px;
-      font-size: 18px;
+      font-size: 14px;
+      margin-top: 1.5vh;
       transition: inset 0.3s ease-out;
+      /* margin-right: 1.5vw; */
     }
   }
   @media all and (max-width: 1024px) and (max-height: 768px) and (orientation: landscape) {
@@ -147,9 +160,12 @@ const BookC = styled.div`
 
     a {
       inset: auto auto 25px 17px;
+      /* margin-right: 3vw; */
+      /* right: 2vw; */
       button {
         width: 140px;
         height: 38px;
+        /* font-size: 1.5vw; */
       }
     }
 

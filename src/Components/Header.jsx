@@ -208,17 +208,29 @@ const Search = styled.div`
     @media all and (max-width: 768px) and (max-height: 1024px) and (orientation:portrait) {
         margin-left: 10px;
         input{
-            width: 360px;
+            width: 330px;
             font-size: 16px;
+
+            &:hover{
+            width: 360px;
+            transition: 0.36s ease-in-out;
+        }
 
             /* margin-left: 15px;; */
         }
+      
     }
     @media all and (max-width: 1024px) and (max-height: 768px) and (orientation:landscape) {
         input{
-            width: 360px;
+            width: 330px;
             height: 50px;
+
+            &:hover{
+            width: 360px;
+            transition: 0.36s ease-in-out;
         }
+        }
+   
     }
 `;
 
